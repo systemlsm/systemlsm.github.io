@@ -1,0 +1,154 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SystemLsm</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/juego.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body style="background: rgb(21, 21, 21);">
+    <!-- header section starts  -->
+
+<section class="header">
+
+    <a href="Index.html" class="logo">My Love</a>
+ 
+    <nav class="navbar">
+       <a href="Index.html">Inicio</a>
+       <a href="Juego.html">Juego</a>
+       <a href="Videos.html">Videos</a>
+       <a href="Declaratorias.html">Declaratorias</a>
+    </nav>
+ 
+    <div id="menu-btn" class="fas fa-bars"></div>
+ 
+ </section>
+ 
+
+
+ 
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Jugar</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Algunas reglas de este Juego</span></div>
+        <div class="info-list">
+            <div class="info">1. Tendrás solo <span>20 segundos</span> por cada pregunta.</div>
+            <div class="info">2. Una vez que seleccione su respuesta, no se puede deshacer.</div>
+            <div class="info">3. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div>
+            <div class="info">4. No puedes salir del JUEGO mientras estás jugando.</div>
+            <div class="info">5. Obtendrá puntos en función de sus respuestas correctas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Preguntas </div>
+            <div class="timer">
+                <div class="time_left_txt">Timpo</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Siguiente</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Haz completado las preguntas!</div>
+        <div style="font-size: 12px;" class="complete_text">Saca una captura y enviamela</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Repetir</button>
+            <button class="quit">Salir</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/cuestionario.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/JuegoC.js"></script>
+
+<!-- footer section starts  -->
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<section class="footer">
+
+    <div class="box-container">
+ 
+       <div class="box">
+          <h3>Enlaces Rápidos</h3>
+          <a href="Index.html"> <i class="fas fa-angle-right"></i> Inicio</a>
+          <a href="Juego.html"> <i class="fas fa-angle-right"></i> Juego</a>
+          <a href="Videos.html"> <i class="fas fa-angle-right"></i> Videos</a>
+          <a href="Declaratorias.html"> <i class="fas fa-angle-right"></i> Declaratorias</a>
+       </div>
+ 
+       <div class="box">
+          <h3>Datos De Contacto</h3>
+          <a href="#"> <i class="fas fa-user-circle"></i> Luis Josue Santander Montes </a>
+          <a href="#"> <i class="fas fa-phone"></i> +591 76593917 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> systemlsm61@gmail.com </a>
+          <a href="#"> <i class="fab fa-facebook-f"></i>  System LSM </a>
+       </div>
+ 
+       <div class="box">
+          <h3>Síganos</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-whatsapp"></i> whatsapp </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+       </div>
+ 
+    </div>
+ 
+    <div class="credit"> Todos los Derechos Reservados ©2022 | SYSTEM<span>LSM</span></div>
+ 
+ </section>
+ 
+ <!-- footer section ends -->
+ 
+ 
+ <!-- swiper js link  -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ 
+ <!-- custom js file link  -->
+ <script src="js/script.js"></script>
+ 
+ </body>
+ </html>
+</body>
+</html>
